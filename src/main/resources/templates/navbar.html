@@ -19,7 +19,18 @@
         >SCM</span
       >
     </a>
-    <div class="flex gap-2 md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+    <div
+      class="flex gap-2 md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse"
+    >
+      <!-- dark light theme toggle button  -->
+      <button
+        id="change_theme_btn"
+        class="bg-gray-300 text-gray-800 rounded-lg px-4 py-2"
+      >
+        <i class="fa-solid fa-circle-half-stroke"></i>
+        <span>Light</span>
+      </button>
+
       <a
         data-th-href="@{'/login'}"
         type="button"
