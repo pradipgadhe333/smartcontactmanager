@@ -25,11 +25,19 @@
       <!-- dark light theme toggle button  -->
       <button
         id="change_theme_btn"
-        class="bg-gray-300 text-gray-800  dark:bg-gray-700 dark:text-gray-300 rounded-lg px-4 py-2 hover:bg-gray-400 hover:text-gray-900 dark:hover:bg-gray-700 dark:hover:text-gray-100"
+        class="bg-gray-300 text-gray-800 dark:bg-gray-700 dark:text-gray-300 rounded-lg px-4 py-2 hover:bg-gray-400 hover:text-gray-900 dark:hover:bg-gray-700 dark:hover:text-gray-100"
       >
         <i class="fa-solid fa-circle-half-stroke"></i>
         <span>Light</span>
       </button>
+
+      <a
+        data-th-href="@{'/register'}"
+        type="button"
+        class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+      >
+        Sign up
+      </a>
 
       <a
         data-th-href="@{'/login'}"
@@ -37,14 +45,6 @@
         class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
       >
         Login
-      </a>
-
-      <a
-        data-th-href="@{'/register'}"
-        type="button"
-        class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-      >
-        Signup
       </a>
 
       <!-- icon to open menu on small screen  -->
